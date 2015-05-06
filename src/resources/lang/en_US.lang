@@ -1,0 +1,11 @@
+error_NoPlayerNamed=§4[§fFlyMod§4] §fNo player named!
+error_PlayerNotFound=§4[§fFlyMod§4] §fNo player found!
+error_PlayerNotOnline=§4[§fFlyMod§4] §fPlayer not online!
+error_NoAmountSet=§4[§fFlyMod§4] §fNo amount set!
+error_WrongSpeedAmount=§4[§fFlyMod§4] §fMax speed amount: %a (default: 5; only from 1-100)!
+error_NotANumber=§4[§fFlyMod§4] §fWrong speed amount: %e (default: 5; only from 1-%a)!
+error_SpeedResetNotEnoughPermission=§4[§fFlyMod§4] §fYou cant reset others flyspeed!
+speedChanged=§2[§fFlyMod§2] §fSpeed chaged!
+speedReseted=§2[§fFlyMod§2] §fSpeed reseted!
+takeFly=§2[§fFlyMod§2] §f%p can't fly anymore!
+giveFly=§2[§fFlyMod§2] §f%p can now fly!
