@@ -12,7 +12,11 @@ import net.visualillusionsent.utils.LocaleHelper;
  */
 
 public class Translator extends LocaleHelper{
-    public Translator() {
-        super(true, "./lang/FlyMod", "en_US");
+    public Translator(String locale) {
+        super(locale);
+    }
+
+    public Translator(boolean useExternalFiles, String externalDirectory, String locale) {
+        super(useExternalFiles, externalDirectory, locale);
     }
 }

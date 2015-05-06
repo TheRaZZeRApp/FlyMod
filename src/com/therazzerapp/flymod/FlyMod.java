@@ -19,7 +19,7 @@ import java.io.IOException;
 
 public class FlyMod extends Plugin{
 
-    private static Translator translator = new Translator();
+    private static Translator translator;
     private static Settings settings;
 
     @Override
@@ -42,6 +42,14 @@ public class FlyMod extends Plugin{
         }
         settings = new Settings(Config.readJsonFile(configFile));
         getLogman().info("Config loaded!");
+
+        try{
+            translator = new Translator(true, "./lang/FlyMod", "en_US");
+            getLogman().info("Language files loaded!");
+        } catch (NullPointerException e){
+            getLogman().error("No language files found, language is set to default (en_US)");
+            translator = new Translator("en_US");
+        }
 
         try {
             Canary.commands().registerCommands(new CommandList(),this,false);
