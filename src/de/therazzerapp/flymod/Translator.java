@@ -1,4 +1,4 @@
-package com.therazzerapp.flymod;
+package de.therazzerapp.flymod;
 
 import net.visualillusionsent.utils.LocaleHelper;
 

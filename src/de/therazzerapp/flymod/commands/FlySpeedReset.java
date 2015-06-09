@@ -1,7 +1,7 @@
-package com.therazzerapp.flymod.commands;
+package de.therazzerapp.flymod.commands;
 
-import com.therazzerapp.flymod.FlyMod;
-import com.therazzerapp.flymod.FlyModCommand;
+import de.therazzerapp.flymod.FlyMod;
+import de.therazzerapp.flymod.FlyModCommand;
 import net.canarymod.Canary;
 import net.canarymod.api.entity.living.humanoid.Player;
 import net.canarymod.chat.MessageReceiver;

@@ -1,8 +1,8 @@
-package com.therazzerapp.flymod;
+package de.therazzerapp.flymod;
 
-import com.therazzerapp.flymod.commands.Fly;
-import com.therazzerapp.flymod.commands.FlySpeed;
-import com.therazzerapp.flymod.commands.FlySpeedReset;
+import de.therazzerapp.flymod.commands.Fly;
+import de.therazzerapp.flymod.commands.FlySpeed;
+import de.therazzerapp.flymod.commands.FlySpeedReset;
 import net.canarymod.chat.MessageReceiver;
 import net.canarymod.commandsys.Command;
 import net.canarymod.commandsys.CommandListener;

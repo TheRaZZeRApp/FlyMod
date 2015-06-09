@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FlyMod:jar">
+    <output-path>$USER_HOME$/Documents/Canary/Server/plugins</output-path>
+    <root id="archive" name="FlyMod.jar">
+      <element id="module-output" name="FlyMod" />
+    </root>
+  </artifact>
+</component>

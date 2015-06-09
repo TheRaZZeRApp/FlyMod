@@ -1,4 +1,4 @@
-main-class = com.therazzerapp.flymod.FlyMod
+main-class = de.therazzerapp.flymod.FlyMod
 author = TheRaZZeRApp
-version = 1.2
+version = 1.2.1
 name = FlyMod

@@ -1,6 +1,6 @@
-package com.therazzerapp.flymod;
+package de.therazzerapp.flymod;
 
-import com.therazzerapp.flymod.config.Config;
+import de.therazzerapp.flymod.config.Config;
 import net.canarymod.Canary;
 import net.canarymod.commandsys.CommandDependencyException;
 import net.canarymod.plugin.Plugin;
